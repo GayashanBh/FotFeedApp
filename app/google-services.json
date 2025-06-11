@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577150635949",
+    "project_id": "fotfeed-13ec8",
+    "storage_bucket": "fotfeed-13ec8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577150635949:android:086eb685aef620d6f81b24",
+        "android_client_info": {
+          "package_name": "com.example.fotfeed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9Go4LRzBUgkmo8O-_ircb8AEp2qKcwwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <!-- ─── TOP NAV BAR (already have this include on other screens) ─── -->
+    <include
+        android:id="@+id/topNav"
+        layout="@layout/top_nav" />
+
+    <!-- ─── SCROLLABLE LIST OF NEWS CARDS ─── -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/newsRecyclerView"
+        android:layout_below="@id/topNav"
+        android:layout_above="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+
+    <!-- ─── BOTTOM FILTER BAR  ─── -->
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0B478F"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnSport"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Sport"
+            android:src="@drawable/ic_sport"
+            android:layout_marginEnd="64dp"/>
+
+        <ImageButton
+            android:id="@+id/btnAcademic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Academic"
+            android:src="@drawable/ic_academic"
+            android:layout_marginEnd="64dp"/>
+
+        <ImageButton
+            android:id="@+id/btnEvent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Events"
+            android:src="@drawable/ic_event" />
+    </LinearLayout>
+</RelativeLayout>
