@@ -14,7 +14,7 @@
         android:theme="@style/Theme.FotFeed"
         tools:targetApi="31">
 
-        <!-- ✅ Splash Screen: Launcher activity -->
+        <!--  Splash Screen: Launcher activity -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
