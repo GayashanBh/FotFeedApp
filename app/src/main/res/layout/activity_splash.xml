@@ -12,5 +12,15 @@
         android:src="@drawable/logo"
         android:contentDescription="App Logo" />
 
+    <ImageView
+        android:id="@+id/overlayImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/overlay_down"
+        android:scaleType="fitEnd"
+        android:contentDescription="Bottom Overlay"
+        android:alpha="0.8" />
+
 
 </RelativeLayout>
